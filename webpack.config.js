@@ -1,5 +1,5 @@
-require('dotenv').config();
-const path = require('path');;
+// require('dotenv').config();
+const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
@@ -18,10 +18,7 @@ module.exports = {
 
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin(),
-    new Dotenv({
-      path: './.env'
-    })
+    new webpack.NoEmitOnErrorsPlugin()
   ],
 
   module: {
