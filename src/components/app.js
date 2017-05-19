@@ -2,9 +2,11 @@ import React from 'react'
 
 const tellSecret = process.env.SECRET;
 
-console.log("Secret: ", tellSecret);
-console.log("Process.env: ", process.env);
-console.log(process.env.PORT)
+setTimeout(()=>{
+  console.log("Secret: ", tellSecret);
+  console.log("Process.env: ", process.env);
+  console.log(process.env.PORT)
+}, 2000)
 
 export default class App extends React.Component {
   render () {
