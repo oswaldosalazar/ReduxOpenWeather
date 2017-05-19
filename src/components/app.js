@@ -2,7 +2,8 @@ import React from 'react'
 
 const tellSecret = process.env.SECRET;
 
-console.log("Secret: ", tellSecret)
+console.log("Secret: ", tellSecret);
+console.log("Process.env: ", process.env);
 
 export default class App extends React.Component {
   render () {
