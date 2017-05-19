@@ -18,7 +18,10 @@ module.exports = {
 
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin()
+    new webpack.NoEmitOnErrorsPlugin(),
+    new Dotenv({
+      path: './.env'
+    })
   ],
 
   module: {
