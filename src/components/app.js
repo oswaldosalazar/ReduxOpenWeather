@@ -4,6 +4,7 @@ const tellSecret = process.env.SECRET;
 
 console.log("Secret: ", tellSecret);
 console.log("Process.env: ", process.env);
+console.log(process.env.PORT)
 
 export default class App extends React.Component {
   render () {
