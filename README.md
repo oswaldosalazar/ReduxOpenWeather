@@ -1,19 +1,7 @@
-# Deployable React + Webpack 2 starter kit
+# Weather Forecast App using React Redux
 
-Most notable libraries:
-- React 15
-- Webpack 2
-- React-hot-loader 3
+The app displays weather forecasts for multiple cities, using data form the openweathermap.org API. Each graph contains a five-day forecast data.
 
-Running on development mode:
-```
-npm run dev
-```
+See the deployed version at:
 
-Running on production mode:
-```
-npm run build
-npm start
-```
-
-Before you deploy, make sure you generated your bundle through `npm run build`.
+https://redux-open-weather.herokuapp.com/
