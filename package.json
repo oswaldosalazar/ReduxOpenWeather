@@ -2,14 +2,14 @@
   "name": "webpack-heroku-boilerplate",
   "version": "1.0.0",
   "description": "Simplest Heroku starter kit for React apps.",
-  "main": "./src/entry.js",
+  "main": "./src/index.js",
   "homepage": "https://github.com/oswaldosalazar/ReduxOpenWeather",
   "author": "Oswaldo Salazar",
   "license": "MIT",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
     "start": "node app.js",
-    "dev": "webpack-dev-server --hot --history-api-fallback --open"
+    "dev": "webpack-dev-server --hot --history-api-fallback"
   },
   "repository": {
     "type": "git",
