@@ -23,7 +23,7 @@
     "javascript"
   ],
   "dependencies": {
-    "axios": "^0.16.1",
+    "axios": "^0.19.2",
     "dotenv": "^4.0.0",
     "dotenv-webpack": "^1.4.5",
     "express": "^4.15.2",
